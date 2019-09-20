@@ -25,10 +25,6 @@
                 </div>
 
                 <div class="main_header_menu">
-                    <div class="main_menu_mobile_header">
-<!--                            <i class="fas fa-times"></i>-->
-                        <p><i class="fas fa-bars"></i>Menu</p>
-                    </div>
                     <ul class="main_menu_box">
                         <li><a href="#main_header">Home</a></li>
                         <li><a href="#main_blog">Blog</a></li>
@@ -43,41 +39,41 @@
             <section class="main_cta container">
                 <div class="main_cta_box">
                     <h1>Equilibre <br> <span class="title_bold">sua vida agora!</span></h1>
-                    <div class="btn main_cta_btn"><a href="#">Clique e comece já!</a></div>
                 </div>
                 <div class="main_cta_box_subtitle">
                     <p>Não pense que é um caminho fácil, você precisará estar realmente comprometido, ter persistência e ritmo. Colocar foco nessa jornada modificará para sempre a sua vida e lhe trará UMA NOVA CHANCE de conhecer a verdadeira felicidade.</p>
+                    <div class="btn main_cta_btn"><a href="#">Clique e comece já!</a></div>
                 </div>
             </section>
 
             <section class="container main_steps">
                 <div class="content row">
                     <div class="main_steps_header">
-                        <h1>Os primeiros <span class="title_bold">passos</span></h1>
+                        <h1 class="boxs">Os primeiros <span class="title_bold">passos</span></h1>
                     </div>
 
                     <div class="main_steps_box">
-                        <article>
+                        <article class="srBottom">
                             <img src="_app/img/icon_meditation.png" class="responsive-img">
                             <h2>Autoconhecimento</h2>
                         </article>
 
-                        <article>
+                        <article class="srTop">
                             <img src="_app/img/icon_meditation.png" class="responsive-img">
                             <h2>Individuação</h2>
                         </article>
 
-                        <article>
+                        <article class="srBottom">
                             <img src="_app/img/icon_meditation.png" class="responsive-img">
                             <h2>Criança interior</h2>
                         </article>
 
-                        <article>
+                        <article class="srTop">
                             <img src="_app/img/icon_meditation.png" class="responsive-img">
                             <h2>Criança ferida</h2>
                         </article>
 
-                        <article>
+                        <article class="srBottom">
                             <img src="_app/img/icon_meditation.png" class="responsive-img">
                             <h2>Sindrome do amor negativo</h2>
                         </article>
@@ -87,7 +83,7 @@
 
             <section class="container main_ebook">
                 <div class="main_ebook_header">
-                    <h1>Ebook - <span class="title_bold">Uma nova chance</span></h1>
+                    <h1 class="boxs">Ebook - <span class="title_bold">Uma nova chance</span></h1>
                 </div>
 
                 <div class="content row">
@@ -105,7 +101,7 @@
                             </p>
                         </div>
 
-                        <div class="btn main_ebook_btn"><a href="#">Em breve!</a></div>
+                        <div class="btn main_ebook_btn"><a href="#">Quero recomeçar</a></div>
                     </div>
                 </div>
             </section>
@@ -113,7 +109,7 @@
             <section class="container main_blog">
                 <div class="content row">
                     <div class="main_blog_header">
-                        <h1><span class="title_bold">Blog</span></h1>
+                        <h1 class="boxs"><span class="title_bold">Blog</span></h1>
                     </div>
 
                     <div class="main_blog_box">
@@ -182,7 +178,7 @@
 
             <section class="container main_about">
                 <div class="main_about_header">
-                    <h1>Quem é <span class="title_bold">Margareth Murteira?</span></h1>
+                    <h1 class="boxs">Quem é <span class="title_bold">Margareth Murteira?</span></h1>
                 </div>
                 <div class="content row">
                     <div class="main_about_box">
@@ -202,7 +198,7 @@
 
             <section class="container main_contato">
                 <div class="main_contato_header">
-                    <h1>Entre em <span class="title_bold">contato</span></h1>
+                    <h1 class="boxs">Entre em <span class="title_bold">contato</span></h1>
                 </div>
 
                 <div class="content row">

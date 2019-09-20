@@ -19,16 +19,31 @@ html, body {
 ************** HEADER *****************
 ***************************************/
 .main_header{
-    text-align: center
+    text-align: center;
+    transition: 1s;
+}
+
+.main_header > .content.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fixar {
+    position:fixed;
+    margin-top: 0px !important;
+    z-index: 9;
+    background-color: #fff;
+    transition: 1s;
 }
 
 .main_header_logo{
     text-align: center;
-    margin: 40px 0 0 0;
+    margin: 20px 0 ;
+    flex-basis: 100%;
 }
 
 .main_header_social{
-    display: flex;
+    display: none;
     justify-content: center;
     flex-basis: 100%;
     align-items: flex-end;
@@ -104,7 +119,7 @@ html, body {
 ************** CTA *****************
 ***************************************/
 .main_cta {
-    background-image: url('_app/img/margareth_murteira_nova_chance.jpg');
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.175),rgba(0,0,0,0.175)), url('_app/img/margareth_murteira_nova_chance.jpg');
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center center;
@@ -126,7 +141,8 @@ html, body {
     font-weight: 100;
     text-transform: uppercase;
     font-size: 4em;
-    color: #565656
+    color: #fff;
+    text-shadow: 0px 0px 6px #000;
 }
 
 .title_bold{
@@ -151,6 +167,7 @@ html, body {
     text-align: center;
     width: 100%;
     padding: 0 10%;
+    bottom: 20px;
 }
 
 .main_cta_box_subtitle p{
@@ -349,12 +366,26 @@ html, body {
     color: #5d5d5d;
     font-size: 3.5em;
     font-weight: 100;
+    position: relative;
+    display: inline-block;
+}
+
+.main_ebook_header h1::after {
+    content:'';
+    position:absolute;
+    left:-9%; right:0;
+    top:100%;
+    margin:10px auto;
+    width:120%;
+    height:6px;
+    background:#c7e9f7;
 }
 
 .main_ebook_box{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center
 }
 
 .main_ebook_box_capa{
@@ -399,8 +430,20 @@ html, body {
     color: #5d5d5d;
     font-size: 3.5em;
     font-weight: 100;
+    position: relative;
+    display: inline-block;
 }
 
+.main_contato_header h1::after {
+    content:'';
+    position:absolute;
+    left:-9%; right:0;
+    top:100%;
+    margin:10px auto;
+    width:120%;
+    height:6px;
+    background:#c7e9f7;
+}
 .main_contato_box{
     width: 40%;
     margin: 0 auto;
@@ -555,7 +598,7 @@ html, body {
     }
 
     .main_contato_header{
-        padding: 70px 0 50px 0;
+        padding: 50px 0 ;
     }
 
     .main_footer_social{
@@ -599,13 +642,9 @@ html, body {
         width: 50%;
     }
 
-    .main_header_logo {
-        margin: 20px 0 0 0;
-    }
-
-
     .main_cta_box h1 {
         font-size: 2em;
+        margin-top: 0;
     }
 
     .main_cta_btn a{
@@ -620,6 +659,10 @@ html, body {
         font-size: .9em;
     }
 
+    .main_steps_header {
+        margin: 30px;
+    }
+
     .main_steps_header h1{
         font-size: 2.5em;
     }
@@ -628,8 +671,16 @@ html, body {
         flex-basis: 100%;
     }
 
+    .main_ebook_header {
+        padding: 30px 0;
+    }
+
     .main_ebook_header h1 {
         font-size: 2.5em;
+    }
+
+    .main_ebook_box_capa {
+        padding: 0px;
     }
 
     .main_ebook_box_capa img{
@@ -646,6 +697,10 @@ html, body {
 
     .main_blog_box article img{
         width: 100%;
+    }
+
+    .main_about_header {
+        padding: 10px 0;
     }
 
     .main_about_header h1 {
