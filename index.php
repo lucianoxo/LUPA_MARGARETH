@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Uma nova chance</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="_app/css/materialize.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header class="container main_header">
-            <div class="content row">
-                <div class="main_header_logo">
-                    <img src="_app/img/logo_margareth_murteira.png" class="responsive-img">
-                </div>
-
-                <div class="main_header_social">
-                    <ul>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="main_header_menu">
-                    <ul class="main_menu_box">
-                        <li><a href="#main_header">Home</a></li>
-                        <li><a href="#main_blog">Blog</a></li>
-                        <li><a href="#main_about">Quem somos</a></li>
-                        <li><a href="#main_contato">Contato</a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-
+<?php require 'header.php'; ?>
         <main>
             <section class="main_cta container">
                 <div class="main_cta_box">
@@ -114,6 +78,16 @@
 
                     <div class="main_blog_box">
                         <article>
+                            <a href="autoconhecimento.php">
+                                <div class="bg_over">
+                                    <img class="responsive-img" src="_app/img/img_exemple.jpg">
+                                </div>
+                                <h2>Autoconhecimento</h2>
+                                <p>O conhecimento é a primeira etapa da conscientização, quando nos referimos ao AUTOCONHECIMENTO buscamos conhecer e compreender o mecanismo de funcionamento das nossas engrenagens internas...</p>
+                            </a>
+                        </article>
+
+<!--                        <article>
                             <a href="#">
                                 <div class="bg_over">
                                     <img class="responsive-img" src="_app/img/img_exemple.jpg">
@@ -161,17 +135,7 @@
                                 <h2>Lorem ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             </a>
-                        </article>
-
-                        <article>
-                            <a href="#">
-                                <div class="bg_over">
-                                    <img class="responsive-img" src="_app/img/img_exemple.jpg">
-                                </div>
-                                <h2>Lorem ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                            </a>
-                        </article>
+                        </article>-->
                     </div>
                 </div>
             </section>
@@ -214,28 +178,4 @@
                 </div>
             </section>
         </main>
-
-        <footer class="container main_footer">
-            <div class="main_footer_logo">
-                <img src="_app/img/logo_margareth_murteira.png" class="responsive-img">
-            </div>
-
-            <div class="main_footer_social">
-                <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                </ul>
-            </div>
-
-            <div class="main_footer_rights">
-                <p>Copyright © <?php echo date('Y'); ?> | Todos os direitos são reservados</p>
-            </div>
-        </footer>
-    </body>
-    <script src="_app/js/jquery-3.3.1.min.js"></script>
-    <script src="_app/js/main.js"></script>
-    <script src="_app/js/materialize.js"></script>
-    <script src="_app/js/unslider.js"></script>
-    <script src="_app/js/scrollreveal.min.js"></script>
-</html>
+<?php require 'footer.php';

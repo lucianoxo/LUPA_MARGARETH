@@ -529,6 +529,45 @@ html, body {
     font-weight: 500;
 }
 
+/**************************************
+************** bLOG INTERNO ********
+***************************************/
+.main_blog_interno{
+    padding: 0 50px
+}
+.main_blog_interno h1{
+    width: 100%;
+    color: #5d5d5d;
+    font-size: 2.875em;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    text-align: center
+}
+
+.main_blog_interno h1::after {
+    content:'';
+    position:absolute;
+    left:-9%; right:0;
+    top:100%;
+    margin:10px auto;
+    width:120%;
+    height:6px;
+    background:#c7e9f7;
+}
+
+.main_blog_interno p{
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.765em
+}
+
+.main_blog_interno h2{
+    color: #5d5d5d;
+    font-weight: bold;
+    font-size: 1.5em
+}
+
 /******************************************************************************
 *************************************** RESPONSIVO******************************
 ******************************************************************************/
